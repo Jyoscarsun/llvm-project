@@ -65,6 +65,7 @@
 #include "mlir/Conversion/SCFToSPIRV/SCFToSPIRVPass.h"
 #include "mlir/Conversion/SPIRVToLLVM/SPIRVToLLVMPass.h"
 #include "mlir/Conversion/ShapeToStandard/ShapeToStandard.h"
+#include "mlir/Conversion/TensorConcatToInsertSlice/TensorConcatToInsertSlice.h"
 #include "mlir/Conversion/TensorToLinalg/TensorToLinalgPass.h"
 #include "mlir/Conversion/TensorToSPIRV/TensorToSPIRVPass.h"
 #include "mlir/Conversion/TosaToArith/TosaToArith.h"
